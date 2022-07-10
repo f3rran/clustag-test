@@ -56,7 +56,6 @@ export default {
   },
   created() {
     if (this.id) {
-      console.log("ASD");
       const axiosInstance = axios.create({
         headers: {
           "Access-Control-Allow-Origin": "*",
